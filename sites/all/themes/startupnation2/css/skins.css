@@ -1,0 +1,39 @@
+/***********************************************************************
+************************  skins.CSS ************************************
+***********************************************************************/
+
+
+/*.contact, .facebook, .google, .linked-in,.linkedin, .pinterest, .rss, .twitter, .birdy,.twitterbird, .yelp, .youtube,
+.youtube2, .custom1, .custom2, .custom3, .custom4, .custom5{background-image:url("images/tm-social-icons-3px.png");}*/
+
+/* slideshow overrides */
+
+#block-views-slideshow-presentation-block {
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+          -webkit-box-shadow: 0px 0px 4px 0px #000;
+                  box-shadow: 0px 0px 4px 0px #000;
+ 
+  -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+.slideshow-wrapper {
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-background-clip: padding-box; background-clip: padding-box;
+  overflow:hidden;
+  -webkit-box-shadow: 0px 0px 4px 0px #000;
+          box-shadow: 0px 0px 4px 0px #000;
+
+}
+
+
+
+/* gallery overrides */
+
+
+.gallery-post {
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-background-clip: padding-box; background-clip: padding-box;
+}

@@ -1,0 +1,145 @@
+/* if you'd like to use the line border, this this uses this class instead of an HR so the HR can be themed differently.
+================================================== */
+
+
+
+.page {
+  background:#fff url('images/page-bg.png') repeat-x 0 0;}
+
+#header-wrapper {
+  padding: 10px 0 40px;
+}
+
+#footer-wrapper-outer {
+  border-top: 2px solid #333;
+  background: rgb(195,195,195); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(195,195,195,1) 0%, rgba(255,255,255,1) 93%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(195,195,195,1)), color-stop(93%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(195,195,195,1) 0%,rgba(255,255,255,1) 93%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(195,195,195,1) 0%,rgba(255,255,255,1) 93%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(195,195,195,1) 0%,rgba(255,255,255,1) 93%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(195,195,195,1) 0%,rgba(255,255,255,1) 93%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3c3c3', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.region-sidebar-last .block,
+.region-sidebar-firat .block {
+  margin-bottom: 15px;
+}
+
+.region-content img {
+  padding:0;
+  -webkit-box-shadow: 0px 0px 4px 0px #000;
+          box-shadow: 0px 0px 4px 0px #000;
+}
+.region-content img.left,
+.region-content img.right {
+  padding-top:0 !important;
+}
+.region-content img.left {margin-right:10px;}
+.region-content img.right {margin-left:10px;}
+
+
+.region-header, #header-region {margin-bottom:0;}
+/* ========================= */
+/* =     Suckerfish Menu   = */
+/* ========================= */
+
+#main-navigation,
+#main-navigation-region {
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  background:#fafafa url('images/bg_navbar.png') repeat-x 0 2px;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #ddd;
+  margin-top:-20px;
+  margin-bottom:20px;
+  text-transform:uppercase;
+  font-size:95%;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#main-navigation .inner {
+  height: 46px;
+  padding-top: 12px;
+  margin-left:0;
+
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  margin: 5px 0;
+}
+
+ul#main-menu li a,
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited  {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding:15px 10px;
+}
+
+
+#main-navigation ul#main-menu li a {
+  padding:14px 10px 13px;
+}
+
+
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+	text-decoration: none;
+}
+
+.sf-menu.sf-style-default li:hover, 
+.sf-menu.sf-style-default li.sfHover, 
+.sf-menu.sf-style-default a:focus, 
+.sf-menu.sf-style-default a:hover, 
+.sf-menu.sf-style-default a:active {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.sf-menu.sf-style-default ul li:hover, 
+.sf-menu.sf-style-default ul li.sfHover, 
+.sf-menu.sf-style-default ul li a:focus, 
+.sf-menu.sf-style-default ul li a:hover, 
+.sf-menu.sf-style-default ul li a:active,
+.sf-menu.sf-style-default ul li li:hover, 
+.sf-menu.sf-style-default ul li li.sfHover, 
+.sf-menu.sf-style-default ul li li a:focus, 
+.sf-menu.sf-style-default ul li li a:hover, 
+.sf-menu.sf-style-default ul li li a:active,
+ul#main-menu li li a.active,
+ul.sf-menu li li a.active {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.sf-menu.sf-style-default .first.sf-depth-1,
+ul#main-menu li.first {
+  margin-left:15px;
+}
+
+.sf-menu.sf-style-default li ul {
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+          box-shadow: 0px 2px 5px 0px #000;
+}
+
+.sf-menu.sf-style-default li li.first a {
+  -webkit-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+.sf-menu.sf-style-default li li.last a {
+  -webkit-border-radius: 0 0 5px 5px;
+          border-radius: 0 0 5px 5px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+

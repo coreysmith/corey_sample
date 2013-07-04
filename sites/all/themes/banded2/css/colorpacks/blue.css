@@ -1,0 +1,100 @@
+/***********************************************************************
+************************  Color.CSS ************************************
+***********************************************************************/
+
+
+
+/* ************** general ********************/
+
+body {
+  background-color: #dedede;
+  border-top: 3px solid #006BA2;
+}
+
+#content-area-wrapper {
+  background: transparent url('colorpack-images/006BA2-bg.png') repeat-x 0px 25px;
+}
+#page {
+  border-top: 1px solid #fff;
+
+}
+
+/*************** typography ******************/
+
+a,
+a:link,
+a:visited {
+  color: #006BA2;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #2EABF2;
+}
+
+
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+#navigation-container {
+  border-bottom: 2px solid #ccc;
+}
+
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active {
+  background-color: #fff;
+}
+
+.sf-menu.sf-style-default li li:hover,
+.sf-menu.sf-style-default li li.sfHover {
+  background-color: #fff;
+}
+
+
+
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+ul#main-menu a.active {
+  color: #2EABF2;
+}
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+.sf-menu.sf-style-default span.sf-description {
+  color: #006BA2;
+}
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  background-color: #eee;
+}
+ul#main-menu li a {
+  background: #fff;
+}
+ul#main-menu li a:hover {
+  background: #fff;
+}
+
+
+ul#main-menu li a.active,
+ul.sf-menu li a.active,
+sf-menu.sf-style-default a.active {
+	color:#2EABF2 !important;
+}
+
+
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover {
+	color:#2EABF2 !important;
+}
+
+
+.sf-menu.sf-style-default li li {
+  background: #fff;
+}
+.sf-menu.sf-style-default li li li {
+  background: #fff;
+}
+

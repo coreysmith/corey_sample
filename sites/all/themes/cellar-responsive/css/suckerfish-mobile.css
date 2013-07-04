@@ -1,0 +1,143 @@
+/* ============================================== */
+/* = Superfish Mobile = */
+/* ============================================== */
+
+
+
+
+
+/* 1 ******************** iPad Portrait/Browser *************************/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+
+/* 2 ******************** Mobile Landscape/Browser ***************************/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #main-navigation,
+    #main-navigation-region {
+      display: none;
+    }
+  
+/*  #main-navigation,
+  #main-navigation-region {
+    background: none;
+  }
+
+  #main-navigation,
+  #main-navigation-region {
+    height: auto !important;
+  }
+  #main-navigation ul li a {
+    border-left: 0;
+    background: transparent;
+  }
+  #main-navigation-region ul li ul {
+    display: none !important;
+  }
+  #main-navigation-region ul.sf-menu li,
+  #main-navigation ul#main-menu li {
+    margin: 1px;
+    background: #e2e2e2;
+    text-align: center;
+  }
+  
+  .dark-region #main-navigation-region ul.sf-menu li,
+  .dark-region #main-navigation ul#main-menu li {
+    background: #333;
+  }
+  
+  
+  #main-navigation-region ul.sf-menu li:hover,
+  #main-navigation ul#main-menu li:hover {
+    background: #ccc;
+  }
+  .dark-region #main-navigation-region ul.sf-menu li:hover,
+  .dark-region #main-navigation ul#main-menu li:hover {
+    background: #222;
+  }
+  .sf-menu.sf-style-default li,
+  .sf-menu.sf-style-default.sf-navbar {
+    border-left: 0;
+  }
+  .sf-menu.sf-style-default {
+    margin: 20px 0 0;
+  }
+  #main-navigation-region ul.sf-menu li {
+    width: 207px;
+    height: 43px;
+  }
+  #main-navigation ul#main-menu li {
+    padding: 11px 10px;
+    display: block;
+    float: left;
+    width: 187px;
+  }
+  #main-navigation ul#main-menu li a {
+    padding: 12px 15px;
+  }*/
+
+}
+
+/* 3 ********************* Anything smaller than 480 ***************************/
+@media only screen and (max-width: 479px) {
+  
+  #main-navigation,
+    #main-navigation-region {
+      display: none;
+    }
+    
+  /*#main-navigation,
+    #main-navigation-region {
+      background: none;
+    }
+    #main-navigation,
+    #main-navigation-region {
+      height: auto !important;
+    }
+    #main-navigation ul li a {
+      border-left: 0;
+      background: transparent;
+    }
+    #main-navigation-region ul li ul {
+      display: none !important;
+    }
+    #main-navigation-region ul.sf-menu li,
+    #main-navigation ul#main-menu li {
+      margin: 1px;
+      background: #e2e2e2;
+      text-align: center;
+    }
+    .dark-region #main-navigation-region ul.sf-menu li,
+    .dark-region #main-navigation ul#main-menu li {
+      background: #333;
+    }
+    #main-navigation-region ul.sf-menu li:hover,
+    #main-navigation ul#main-menu li:hover {
+      background: #ccc;
+    }
+    .dark-region #main-navigation-region ul.sf-menu li:hover,
+    .dark-region #main-navigation ul#main-menu li:hover {
+      background: #222;
+    }
+    .sf-menu.sf-style-default li,
+    .sf-menu.sf-style-default.sf-navbar {
+      border-left: 0;
+    }
+    .sf-menu.sf-style-default {
+      margin: 20px 0 0;
+    }
+    #main-navigation-region ul.sf-menu li {
+      width: 99%;
+      height: 43px;
+    }
+    #main-navigation ul#main-menu li {
+      padding: 11px 10px;
+      display: block;
+      float: left;
+      width: 277px;
+    }
+    #main-navigation ul#main-menu li a {
+      padding: 12px 15px;
+    }*/
+
+}

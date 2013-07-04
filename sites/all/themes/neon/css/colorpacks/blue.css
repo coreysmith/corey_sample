@@ -1,0 +1,323 @@
+/***********************************************************************
+************************  Blue.CSS  ************************************
+***********************************************************************/
+
+/* note: this file only has elements that are not black/white
+   elements that are black/white are contained in the style.css */
+
+
+
+   /* ************** general ********************/
+
+   body {
+background: #000;
+}
+
+ a,
+ a:link,
+ a:visited {
+color: #F38234;
+}
+
+ a:hover,
+ a:focus,
+ a:active,
+ a.active {
+color: #F38234;
+}
+
+ li a.active {
+color: #F38234;
+}
+
+
+
+ #secondary-navigation li.active {
+background: rgb(243,134,58); /* Old browsers */
+   background: -moz-linear-gradient(top, rgba(243,134,58,1) 0%, rgba(242,96,0,1) 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,134,58,1)), color-stop(100%,rgba(242,96,0,1))); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top, rgba(243,134,58,1) 0%,rgba(242,96,0,1) 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top, rgba(243,134,58,1) 0%,rgba(242,96,0,1) 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top, rgba(243,134,58,1) 0%,rgba(242,96,0,1) 100%); /* IE10+ */
+   background: linear-gradient(to bottom, rgba(243,134,58,1) 0%,rgba(242,96,0,1) 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3863a', endColorstr='#f26000',GradientType=0 ); /* IE6-9 */
+}
+ 
+#secondary-navigation li a {
+color: #fff;
+text-shadow: 2px 1px 1px #000;
+}
+ 
+#secondary-navigation li a.active {
+color: #fff;
+}
+
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+
+
+
+/** link colors **/
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+sf-menu.sf-style-default span.sf-description,
+ul#main-menu li a,
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited {
+color: #F38234;
+}
+
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+ul#main-menu a.active,
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover,
+ul#main-menu li a.active,
+ul.sf-menu li a.active,
+sf-menu.sf-style-default a.active,
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover {
+color: #fff !important;
+}
+
+/** background colors **/
+
+
+#main-navigation,
+#main-navigation-region,
+#footer {
+}
+
+
+/* main level */
+
+ul#main-menu li a,
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+background-color: transparent !important;
+border-left: 0px solid #ccc;
+}
+
+
+
+.sf-menu.sf-style-default li:hover,
+.sf-menu.sf-style-default li.sfHover,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default a.active,
+#main-navigation ul#main-menu li a:hover,
+ul#main-menu li a:hover {
+background-color: #2A81BE !important;
+}
+
+
+
+/* second level */
+.sf-menu.sf-style-default li ul {
+background: #222;
+}
+
+.sf-menu.sf-style-default li li:hover,
+.sf-menu.sf-style-default li li.sfHover {
+background-color: transparent;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+background-color: #2A81BE;
+color: #fff;
+}
+
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+background-color: #fff;
+}
+
+
+/* ======================== */
+/* =    region-header menu overrides    = */
+/* ======================== */
+
+.region-header {
+margin-top: -15px;
+}
+
+/** link colors **/
+.region-header .sf-menu.sf-style-default a,
+.region-header .sf-menu.sf-style-default a:visited,
+.region-header .sf-menu.sf-style-default span.sf-description,
+.region-header .sf-menu.sf-style-default a,
+.region-header .sf-menu.sf-style-default a:visited {
+color: #fff;
+text-shadow: 2px 1px 1px #000;
+}
+
+.region-header .sf-menu.sf-style-default a:hover,
+.region-header .sf-menu.sf-style-default a.active {
+color: #fff !important;
+}
+
+
+
+/* main level */
+.region-header .sf-menu.sf-style-default a {
+padding: 50px 10px 10px;
+border-right: 1px solid #000;
+}
+
+.region-header .sf-menu.sf-style-default li,
+.region-header .sf-menu.sf-style-default.sf-navbar {
+background-color: transparent !important;
+border-left: 0px solid #ccc;
+}
+
+
+
+
+.region-header .sf-menu.sf-style-default a:focus,
+.region-header .sf-menu.sf-style-default a:hover,
+.region-header .sf-menu.sf-style-default a:active,
+.region-header .sf-menu.sf-style-default a.active {
+background: rgb(243,134,58); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(243,134,58,1) 0%, rgba(242,96,0,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,134,58,1)), color-stop(100%,rgba(242,96,0,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(243,134,58,1) 0%,rgba(242,96,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(243,134,58,1) 0%,rgba(242,96,0,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(243,134,58,1) 0%,rgba(242,96,0,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(243,134,58,1) 0%,rgba(242,96,0,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3863a', endColorstr='#f26000',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+/* second level */
+
+.region-header .sf-menu.sf-style-default li li a {
+padding: 10px;
+}
+.region-header .sf-menu.sf-style-default li ul {
+background: #222;
+margin-top: 50px;
+}
+
+.region-header .sf-menu.sf-style-default li li:hover,
+.region-header .sf-menu.sf-style-default li li.sfHover {
+background-color: transparent;
+}
+
+.region-header .sf-menu.sf-style-default ul li.active-trail > a,
+.region-header .sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+background-color: #2A81BE;
+color: #fff;
+}
+
+.region-header .sf-menu.sf-style-default li li,
+.region-header .sf-menu.sf-style-default li li li {
+background-color: #fff;
+}
+
+
+
+/* ===================== */
+/* =  social sprites   = */
+/* ===================== */
+
+.region-header .sf-menu.sf-style-default a.twitter,
+.region-header .sf-menu.sf-style-default a.facebook,
+.region-header .sf-menu.sf-style-default a.linked-in,
+.region-header .sf-menu.sf-style-default a.linkedin,
+.region-header .sf-menu.sf-style-default a.rss,
+.region-header .sf-menu.sf-style-default a.contact {
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  text-indent: 9999em;
+  text-transform: capitalize;
+  display: inline-block;
+  background-image: url("images/social-chicklet-25.png");
+  margin-right: 5px;
+  margin-bottom: 0;
+  margin-top: 45px;
+  padding:0;
+}
+.region-header .sf-menu.sf-style-default a.twitter:hover,
+.region-header .sf-menu.sf-style-default a.facebook:hover,
+.region-header .sf-menu.sf-style-default a.linked-in:hover,
+.region-header .sf-menu.sf-style-default a.linkedin:hover,
+.region-header .sf-menu.sf-style-default a.rss:hover,
+.region-header .sf-menu.sf-style-default a.contact:hover,
+.region-header .sf-menu.sf-style-default a.twitter:focus,
+.region-header .sf-menu.sf-style-default a.facebook:focus,
+.region-header .sf-menu.sf-style-default a.linked-in:focus,
+.region-header .sf-menu.sf-style-default a.linkedin:focus,
+.region-header .sf-menu.sf-style-default a.rss:focus,
+.region-header .sf-menu.sf-style-default a.contact:focus,
+.region-header .sf-menu.sf-style-default a.twitter:active,
+.region-header .sf-menu.sf-style-default a.facebook:active,
+.region-header .sf-menu.sf-style-default a.linked-in:active,
+.region-header .sf-menu.sf-style-default a.linkedin:active,
+.region-header .sf-menu.sf-style-default a.rss:active,
+.region-header .sf-menu.sf-style-default a.contact:active {
+  background: transparent url("images/social-chicklet-25.png");
+}
+
+
+.region-header .sf-menu.sf-style-default a.twitter {
+background-position: 0 0;
+}
+.region-header .sf-menu.sf-style-default a.twitter:hover {
+background-position: 0 25px;
+}
+.region-header .sf-menu.sf-style-default a.facebook {
+background-position: 125px 0;
+}
+.region-header .sf-menu.sf-style-default a.facebook:hover {
+background-position: 125px 25px;
+}
+.region-header .sf-menu.sf-style-default a.linked-in,
+.region-header .sf-menu.sf-style-default a.linkedin {
+background-position: 100px 0;
+}
+.region-header .sf-menu.sf-style-default a.linked-in:hover,
+.region-header .sf-menu.sf-style-default a.linkedin:hover {
+background-position: 100px 25px;
+}
+.region-header .sf-menu.sf-style-default a.rss {
+background-position: 75px 0;
+}
+.region-header .sf-menu.sf-style-default a.rss:hover {
+background-position: 75px 25px;
+}
+.region-header .sf-menu.sf-style-default a.youtube {
+background-position: 50px 0;
+}
+.region-header .sf-menu.sf-style-default a.youtube:hover {
+background-position: 50px 25px;
+}
+.region-header .sf-menu.sf-style-default a.contact {
+background-position: 25px 0;
+}
+.region-header .sf-menu.sf-style-default a.contact:hover {
+background-position: 25px 25px;
+}
+li.last .twitter,
+li.last .facebook,
+li.last .linked-in,
+li.last .linkedin,
+li.last .rss,
+li.last .youtube,
+li.last .contact {
+margin-right: 0;
+}
+
+
+
+
+
+
+
+
+

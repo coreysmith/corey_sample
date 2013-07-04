@@ -1,0 +1,105 @@
+/* if you'd like to use the line border,this this uses this class instead of an HR so the HR can be themed differently.
+================================================== */
+.lined-border{height:0px;border-top:1px solid #bbb;border-bottom:1px solid #fff;}
+/* ************** general ********************/
+body{background:#DEDEE0 url('images/bg-body.gif') repeat;}
+#page{}
+.breadcrumb-wrapper{margin-bottom:0;}
+#block-views-home-page-slideshow-block .block-inner{padding:0;margin-top:-10px;-webkit-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;overflow:hidden;}
+/*************** typography ******************/
+body,
+p{font-family:Helvetica,Arial,sans-serif;font-size:1em;line-height:1.56em;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{font-family:Helvetica,Arial,sans-serif;color:#444;clear:both;}
+h1.title{margin-left:10px;}
+h1{font-size:36px;line-height:39px;}
+h2{font-size:30px;line-height:32px;margin-bottom:10px;}
+h3{font-size:25px;line-height:30px;margin-bottom:8px;}
+h4{font-size:20px;line-height:28px;margin-bottom:4px;}
+h5{font-size:17px;line-height:24px;}
+h6{font-size:14px;line-height:21px;}
+.block-inner{padding:10px;}
+.block-superfish .block-inner{padding:0;}
+/*************** header region ******************/
+#site-name a{color:#333;}
+#header-container{background:#fff url('images/bg-nav.png') center bottom repeat-x;-webkit-border-radius:8px;border-radius:8px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;margin-top:10px;margin-bottom:10px;}
+#site-info{padding-top:10px;z-index:1;position:relative;}
+#header-region,.region-header{margin-bottom:0;}
+/*************** navigation ******************/
+#secondary-navigation{margin-bottom:0;}
+#secondary-wrapper{background:transparent;margin-bottom:0;padding:10px 0 0;}
+ul#secondary-menu li{padding:0 .4em;}
+/********* sidebars *********/
+.region-sidebar-first,
+.region-sidebar-last,
+.content-column{background:#fff;-webkit-border-radius:8px;border-radius:8px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;margin-bottom:10px;}
+/*************** preface region ******************/
+.region-preface{margin-bottom:5px;}
+#preface-container-inner,
+#postscript-container-inner{background:transparent url('images/bg-container.png') repeat;margin-bottom:15px;padding:5px 0;-moz-box-shadow:inset 0px 0px 5px #000;-webkit-box-shadow:inset 0px 0px 5px #000;box-shadow:inset 0px 0px 5px #000;-webkit-border-radius:8px;border-radius:8px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;}
+#preface .inner,
+#mobile-only .block-inner{background-color:#FFFFFF;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;margin-top:10px;}
+#preface{margin-bottom:10px;}
+/*************** content region ******************/
+#content-container .content-container-inner .content img{-webkit-border-radius:6px;border-radius:6px;background-clip:padding-box;-webkit-box-shadow:0px 0px 3px 0px #000;box-shadow:0px 0px 3px 0px #000;overflow:hidden;}
+#content-container .content-container-inner{background:transparent url('images/bg-container.png') repeat;-webkit-border-radius:8px;border-radius:8px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-moz-box-shadow:inset 0px 0px 5px #000;-webkit-box-shadow:inset 0px 0px 5px #000;box-shadow:inset 0px 0px 5px #000;margin-bottom:15px;margin-top:15px;}
+#main-content-wrapper{margin-top:15px;}
+#content-column,
+#sidebar-first,
+#sidebar-last{margin-bottom:10px;}
+#content-column{padding-top:10px;}
+a.feed-icon{padding:10px;}
+/*************** content top and bottom region ******************/
+#content-top{}
+#content-top .block-inner{padding-top:0;}
+/*************** sidebars ******************/
+/*************** postscript region ******************/
+#postscript-container{padding-bottom:0;}
+#postscript-wrapper .region{margin-bottom:0;}
+/*************** footer region ******************/
+.region-footer{margin-bottom:10px;}
+.dark-region{background:none;}
+.dark-region .block-inner{padding:10px 0;}
+#footer,.region-footer{margin-bottom:0;}
+/* ========================= */
+/* = Suckerfish Menu = */
+/* ========================= */
+#main-navigation,
+#main-navigation-region{background:transparent;}
+#main-navigation .inner{height:42px;padding-top:12px;margin-left:0;}
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a{margin:5px 0;}
+ul#main-menu li a,
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited{background-repeat:no-repeat;background-position:bottom center;padding:11px 10px;margin-top:1px;}
+.sf-menu.sf-style-default li,.sf-menu.sf-style-default.sf-navbar{margin-top:4px;}
+#main-navigation ul#main-menu li a{padding:11px 10px 10px;}
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover{background-repeat:no-repeat;background-position:bottom center;text-decoration:none;}
+.sf-menu.sf-style-default li:hover,
+.sf-menu.sf-style-default li.sfHover,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active{background-repeat:no-repeat;background-position:bottom center;}
+.sf-menu.sf-style-default ul li:hover,
+.sf-menu.sf-style-default ul li.sfHover,
+.sf-menu.sf-style-default ul li a:focus,
+.sf-menu.sf-style-default ul li a:hover,
+.sf-menu.sf-style-default ul li a:active,
+.sf-menu.sf-style-default ul li li:hover,
+.sf-menu.sf-style-default ul li li.sfHover,
+.sf-menu.sf-style-default ul li li a:focus,
+.sf-menu.sf-style-default ul li li a:hover,
+.sf-menu.sf-style-default ul li li a:active,
+ul#main-menu li li a.active,
+ul.sf-menu li li a.active{background-repeat:no-repeat;background-position:bottom center;}
+.sf-menu.sf-style-default li ul{-webkit-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0px 2px 7px 0px #000;box-shadow:0px 2px 7px 0px #000;padding-bottom:0;margin-top:10px;}
+.sf-menu.sf-style-default li ul li{margin-top:0;}
+.sf-menu.sf-style-default li ul li.first a{margin-top:0;}
+.sf-menu.sf-style-default li li.first > a{-webkit-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;}
+.sf-menu.sf-style-default li li.last > a{-webkit-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;}
+.sf-menu.sf-style-default li.first{-webkit-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;}

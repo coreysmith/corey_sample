@@ -1,0 +1,70 @@
+name = Neon Armadillo
+description = Neon Armadillo Theme is a Drupal 7 Theme built by <a href="http://www.tributemedia.com">Tribute Media</a>. This theme uses the cellar base theme and requires it to be located in the themes directory for it to work.
+version = 2.0a
+core = 7.x
+base theme  = testingresponsive
+
+
+; ===========
+; = Regions =
+; ===========
+regions[header] = Header
+regions[main_nav] = Main Navigation
+regions[mobile_only] = Mobile (visible on phones only)
+regions[preface] = Preface
+regions[sidebar_first] = Sidebar First
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content_top] = Content Top
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[sidebar_last] = Sidebar Last
+regions[postscript] = Postscript
+regions[footer] = Footer
+
+
+; ============
+; = Features =
+; ============
+
+features[] = logo
+features[] = name
+features[] = slogan
+; features[] = node_user_picture
+; features[] = comment_user_picture
+; features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+
+; ===============
+; = Stylesheets =
+; ===============
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/local.css
+
+
+
+
+; =============================================================
+; = Mobile - Remove for non-mobile sites                      =
+; =============================================================
+stylesheets[all][] = css/neon-mobile.css
+
+
+; =============================================================
+; = Color Pack Stylesheets                                    =
+; = Simply Uncomment / Comment the Color Packs to Change them =
+; = Don't forget to clear your Drupal caches when changing    =
+; =============================================================
+stylesheets[all][] = css/colorpacks/blue.css
+
+; =========================
+; = Custom Theme Settings =
+; =========================
+
+settings[firstsidebar] = 3
+settings[secondsidebar] = 5
+settings[cellarbreadcrumbs] = 0

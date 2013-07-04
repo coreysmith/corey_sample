@@ -1,0 +1,200 @@
+/* if you'd like to use the line border, this this uses this class instead of an HR so the HR can be themed differently.
+================================================== */
+
+.breadcrumb-wrapper {
+  background:transparent url('colorpacks/colorpack-images/1px-darken.png');
+  border-bottom: 1px dotted #ccc;
+}
+#preface-container,
+#content-container,
+#postscript-container,
+#footer-container,
+#header-container,
+#mobile-only-container {
+  background-color:#fff;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:0;
+  margin-bottom:0;
+}
+#header-container {
+  -webkit-border-radius: 0 12px 0 0;
+          border-radius: 0 12px 0 0;
+  -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+#footer-container {
+  -webkit-border-radius: 0 0 12px 12px;
+          border-radius: 0 0 12px 12px;
+  -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+#masthead-header-container {
+  background:transparent url('images/logo-bg.png') 0 0 no-repeat;
+}
+
+#site-info .inner {
+  padding:30px 15px 10px;
+}
+#header-wrapper {
+  padding:0;
+}
+.region-sidebar-last .block,
+.region-sidebar-first .block {
+  margin-bottom:10px;
+}
+
+
+#preface,.region-preface {margin-bottom:0;}
+
+body {
+  font-family: 'Trebuchet MS',Trebuchet,sans-serif;
+  color:#666;
+}
+
+/*** typography **/
+
+@font-face {
+    font-family: 'SFCartoonistHandRegular';
+    src: url('../fonts/SF_Cartoonist_Hand-webfont.eot');
+    src: url('../fonts/SF_Cartoonist_Hand-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SF_Cartoonist_Hand-webfont.woff') format('woff'),
+         url('../fonts/SF_Cartoonist_Hand-webfont.ttf') format('truetype'),
+         url('../fonts/SF_Cartoonist_Hand-webfont.svg#SFCartoonistHandRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#navigation-wrapper {
+  font-family: 'SFCartoonistHandRegular';
+  font-size:130%;
+}
+h1,h2,h3,h4,h5,h6,#site-name{color:#666;font-weight:normal;}
+
+.region-sidebar-last h2,
+.region-sidebar-first h2 {
+  font-family: 'SFCartoonistHandRegular';
+  font-size:190%;
+  padding:5px 10px 0;
+
+}
+
+.region-sidebar-last h2 {
+  background-image:url('images/right-h2.png');
+  background-position:right top;
+  background-repeat:no-repeat;
+}
+.region-sidebar-first h2 {
+  background-image:url('images/left-h2.png');
+  background-position:left top;
+  background-repeat:no-repeat;
+}
+
+
+/* ========================= */
+/* =     Suckerfish Menu   = */
+/* ========================= */
+
+#navigation-container .region.region-main-nav {margin:0;}
+#header-region {margin-bottom:0;}
+
+
+#main-navigation,
+#main-navigation-region {
+  background: transparent;
+}
+
+#main-navigation .inner {
+  height: 46px;
+  padding-top: 12px;
+  margin-left:0;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  margin: 5px 0;
+}
+
+ul#main-menu li a,
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited  {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding:15px 10px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+ul#main-menu li li a,
+.sf-menu.sf-style-default li li a,
+.sf-menu.sf-style-default li li a:visited {
+  -webkit-border-radius: inherit;
+          border-radius: inherit;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+
+#main-navigation ul#main-menu li a {
+  padding:12px 10px 16px;
+}
+
+
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+	text-decoration: none;
+}
+
+.sf-menu.sf-style-default li:hover, 
+.sf-menu.sf-style-default li.sfHover, 
+.sf-menu.sf-style-default a:focus, 
+.sf-menu.sf-style-default a:hover, 
+.sf-menu.sf-style-default a:active {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.sf-menu.sf-style-default ul li:hover, 
+.sf-menu.sf-style-default ul li.sfHover, 
+.sf-menu.sf-style-default ul li a:focus, 
+.sf-menu.sf-style-default ul li a:hover, 
+.sf-menu.sf-style-default ul li a:active,
+.sf-menu.sf-style-default ul li li:hover, 
+.sf-menu.sf-style-default ul li li.sfHover, 
+.sf-menu.sf-style-default ul li li a:focus, 
+.sf-menu.sf-style-default ul li li a:hover, 
+.sf-menu.sf-style-default ul li li a:active,
+ul#main-menu li li a.active,
+ul.sf-menu li li a.active {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.sf-menu.sf-style-default li ul {
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  -webkit-box-shadow: 0px 2px 7px 0px #000;
+          box-shadow: 0px 2px 7px 0px #000;
+  padding-bottom:0;
+  
+}
+
+.sf-menu.sf-style-default li li.first a {
+  -webkit-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+.sf-menu.sf-style-default li li.last a {
+  -webkit-border-radius: 0 0 3px 3px;
+          border-radius: 0 0 3px 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+
+.sf-menu.sf-style-default li ul ul {
+  margin-left: 5px;
+}
+
+

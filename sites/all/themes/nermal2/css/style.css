@@ -1,0 +1,211 @@
+/* if you'd like to use the line border, this this uses this class instead of an HR so the HR can be themed differently.
+================================================== */
+
+.secondary-wrapper-outer {
+	background:#333333;
+}
+
+#secondary-wrapper {
+  padding:10px 0 15px;
+}
+
+#header-wrapper-outer {
+	border-bottom:2px solid #666666;
+}
+
+#header-wrapper {
+  padding-bottom:0;
+}
+
+#footer-wrapper-outer {
+	background:#666666;
+	padding:10px 0;
+}
+.region-sidebar-last .block,
+.region-sidebar-first .block {
+  margin-bottom:10px;
+}
+#preface-wrapper {
+	background:#f3f2f3;
+	border-bottom:2px solid #98db4f;
+}
+#preface-wrapper,#content-wrapper{padding-top:10px;padding-bottom:10px;}
+#preface,.region-preface {margin-bottom:0;}
+
+#content-area-wrapper {background:#fff;}
+
+#site-info {margin-bottom:10px;}
+/* ========================= */
+/* =    Typography         = */
+/* ========================= */
+
+@font-face{font-family:'PTSansBold';src:url('../fonts/PTS75F-webfont.eot');src:url('../fonts/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/PTS75F-webfont.woff') format('woff'),
+url('../fonts/PTS75F-webfont.ttf') format('truetype'),
+url('../fonts/PTS75F-webfont.svg#PTSansBold') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'PTSansItalic';src:url('../fonts/PTS56F-webfont.eot');src:url('../fonts/PTS56F-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/PTS56F-webfont.woff') format('woff'),
+url('../fonts/PTS56F-webfont.ttf') format('truetype'),
+url('../fonts/PTS56F-webfont.svg#PTSansItalic') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'PTSansRegular';src:url('../fonts/PTS55F-webfont.eot');src:url('../fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/PTS55F-webfont.woff') format('woff'),
+url('../fonts/PTS55F-webfont.ttf') format('truetype'),
+url('../fonts/PTS55F-webfont.svg#PTSansRegular') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'PTSansNarrowRegular';src:url('../fonts/PTN57F-webfont.eot');src:url('../fonts/PTN57F-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/PTN57F-webfont.woff') format('woff'),
+url('../fonts/PTN57F-webfont.ttf') format('truetype'),
+url('../fonts/PTN57F-webfont.svg#PTSansNarrowRegular') format('svg');font-weight:normal;font-style:normal;}
+body{font-family:century gothic;}
+h1,h2,h3,h4,h5,h6{font-family:'PTSansNarrowRegular'; text-transform:uppercase;margin-bottom:0px;}
+.region-footer h1,.region-footer h2,.region-footer h3,.region-footer h4,.region-footer h5,.region-footer h6 {background:none !important;color:#ffffff;}
+h1#page-title, .block h2 {background:url("images/header-line.png") repeat-x 0 center;}
+.block .node h2 {background:none !important;}
+span.page-title-span, span.block-title-span {background:#ffffff;padding-right:5px;}
+.region-preface span.block-title-span {background:#F3F2F3;}
+.region-footer span.block-title-span {background:#666666}
+strong,b{}
+em,i{}
+p {margin-bottom:10px;}
+#site-name {text-transform:uppercase;font-family:'PTSansRegular';font-weight:normal;}
+#site-name a {color:#000;}
+.more-link {text-align:right;text-transform:uppercase;font-family:"PTSansRegular";}
+/* ========================= */
+/* =     Suckerfish Menu   = */
+/* ========================= */
+#navigation-container .region.region-main-nav {margin:0;}
+#header-region {margin-bottom:0;}
+
+#superfish-1,
+ul#main-menu {
+  float: right;
+}
+
+#main-navigation,
+#main-navigation-region {
+  background: transparent;
+  height:34px;
+}
+
+#main-navigation .inner {
+  height: 46px;
+  padding-top: 8px;
+  margin-left:0;
+}
+
+.sf-menu.sf-style-default a, #main-navigation ul#main-menu li a {
+}
+
+.sf-menu.sf-style-default a, ul#main-menu li a {
+    background: none transparent !important;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  margin: 0;
+}
+.sf-menu.sf-style-default li, .sf-menu.sf-style-default.sf-navbar {
+/*  margin-bottom:-5px;*/
+}
+
+ul#main-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+ul#main-menu li a,
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited  {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding:10px 10px;
+  -webkit-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+ul#main-menu li li a,
+.sf-menu.sf-style-default li li a,
+.sf-menu.sf-style-default li li a:visited {
+  -webkit-border-radius: inherit;
+          border-radius: inherit;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+
+#main-navigation ul#main-menu li a {
+  padding:8px 10px 7px;
+  
+}
+
+
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+	text-decoration: none;
+}
+
+.sf-menu.sf-style-default li:hover, 
+.sf-menu.sf-style-default li.sfHover, 
+.sf-menu.sf-style-default a:focus, 
+.sf-menu.sf-style-default a:hover, 
+.sf-menu.sf-style-default a:active {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.sf-menu.sf-style-default ul li:hover, 
+.sf-menu.sf-style-default ul li.sfHover, 
+.sf-menu.sf-style-default ul li a:focus, 
+.sf-menu.sf-style-default ul li a:hover, 
+.sf-menu.sf-style-default ul li a:active,
+.sf-menu.sf-style-default ul li li:hover, 
+.sf-menu.sf-style-default ul li li.sfHover, 
+.sf-menu.sf-style-default ul li li a:focus, 
+.sf-menu.sf-style-default ul li li a:hover, 
+.sf-menu.sf-style-default ul li li a:active,
+ul#main-menu li li a.active,
+ul.sf-menu li li a.active {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.sf-menu.sf-style-default li ul {
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  -webkit-box-shadow: 0px 2px 7px 0px #000;
+          box-shadow: 0px 2px 7px 0px #000;
+  padding-bottom:0;
+  
+}
+
+.sf-menu.sf-style-default li li.first > a {
+  -webkit-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+.sf-menu.sf-style-default li li.last > a {
+  -webkit-border-radius: 0 0 3px 3px;
+          border-radius: 0 0 3px 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+/* ========================= */
+/* = Secondary Menu Styles = */
+/* ========================= */
+
+#secondary-menu {
+	float:left;
+}
+
+ul#secondary-menu {
+	margin-bottom:0px;
+}
+
+#secondary-menu li a {
+	color:#ffffff;
+}
+
+
+

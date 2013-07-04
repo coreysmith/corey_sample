@@ -1,0 +1,24 @@
+/* ============================================= */
+/* = skins for bubble = */
+/* ============================================= */
+
+/*.contact, .facebook, .google, .linked-in,.linkedin, .pinterest, .rss, .twitter, .birdy,.twitterbird, .yelp, .youtube,
+.youtube2, .custom1, .custom2, .custom3, .custom4, .custom5{background-image:url("images/tm-social-icons-3px.png");}*/
+
+
+#sidebar-first .no-dots .block-inner,
+#sidebar-last .no-dots .block-inner {background-image:none;}
+
+/* ================================================ */
+/* = slideshow overrides = */
+/* ================================================ */
+.slideshow-2 .slideshow-text-area-wrapper{margin-left:545px;}
+#content-top .slideshow-2 .slideshow-text-area-wrapper {margin-left:565px;}
+.slideshow-2 .slideshow-title-inner{font-size:90%;}
+#content-top .twelve.slideshow-2 .slideshow-text-area-wrapper,
+.twelve.columns #content-top .slideshow-2 .slideshow-text-area-wrapper{margin-left:400px;height:289px;}
+#content-top .eleven.slideshow-2 .slideshow-text-area-wrapper,
+.eleven.columns #content-top .slideshow-2 .slideshow-text-area-wrapper{margin-left:390px;height:264px;}
+
+#block-views-slideshow-presentation-block{-webkit-border-radius:none;border-radius:none;-webkit-background-clip:padding-box;background-clip:padding-box;}
+.slideshow-wrapper{-webkit-border-radius:5px;border-radius:5px;-webkit-background-clip:padding-box;background-clip:padding-box;overflow:hidden;}

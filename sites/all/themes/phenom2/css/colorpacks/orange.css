@@ -1,0 +1,171 @@
+/***********************************************************************
+************************  Color.CSS ************************************
+***********************************************************************/
+.breadcrumb-wrapper{background:#474747;}
+#header-wrapper-outer{background:rgb(71,71,71);/* Old browsers */
+background:-moz-linear-gradient(top,rgba(71,71,71,1) 0%,rgba(0,0,0,1) 100%);/* FF3.6+ */
+background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(71,71,71,1)),color-stop(100%,rgba(0,0,0,1)));/* Chrome,Safari4+ */
+background:-webkit-linear-gradient(top,rgba(71,71,71,1) 0%,rgba(0,0,0,1) 100%);/* Chrome10+,Safari5.1+ */
+background:-o-linear-gradient(top,rgba(71,71,71,1) 0%,rgba(0,0,0,1) 100%);/* Opera 11.10+ */
+background:-ms-linear-gradient(top,rgba(71,71,71,1) 0%,rgba(0,0,0,1) 100%);/* IE10+ */
+background:linear-gradient(to bottom,rgba(71,71,71,1) 0%,rgba(0,0,0,1) 100%);/* W3C */
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747',endColorstr='#000000',GradientType=0 );/* IE6-9 */
+border-bottom:1px solid #fff;}
+.node-readmore a {
+    background: none repeat scroll 0 0 #DDDDDD;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+
+/* ===================================== */
+/* =  Phenom Only Skinr Styles         = */
+/* ===================================== */
+
+
+.phenom-left .block-inner,
+.phenom-right .block-inner  {
+  background-image: url('colorpack-images/orange-border.png');
+}
+.phenom-left .block-inner p,
+.phenom-left .block-inner div,
+.phenom-right .block-inner p,
+.phenom-right .block-inner div {
+  color: #000;
+}
+.phenom-left .block-inner h2 {
+  color: #000;
+}
+.phenom-right .block-inner {
+  background-image: url('colorpack-images/orange-border.png');
+}
+.phenom-right .block-inner h2 {
+  color: #000;
+}
+
+
+
+/*************** typography ******************/
+
+a,
+a:link,
+a:visited {
+  color: #F2982E;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #F2982E;
+  text-decoration:underline;
+}
+
+
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+
+
+
+/** link colors **/
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+ul#main-menu li a {
+  color: #000;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+ul#main-menu a.active,
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover,
+ul#main-menu li a.active,
+ul.sf-menu li a.active {
+	color:#fff !important;
+	text-shadow: 1px 1px 1px #000;
+	background:#333 !important;
+	-webkit-border-radius: 3px;
+          border-radius: 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  text-decoration:none;
+}
+
+/** second level link colors **/
+.sf-menu.sf-style-default li li a,
+.sf-menu.sf-style-default li li a:visited   {
+  color: #fff;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+   text-shadow: 1px 1px 1px #000;
+}
+
+.sf-menu.sf-style-default li li a:hover,
+.sf-menu.sf-style-default li li a.active {
+	color:#fff !important;
+	text-shadow: 1px 1px 1px #000;
+	background-color:#333 !important;
+	-webkit-border-radius: 3px;
+          border-radius: 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+
+
+/** background colors **/
+
+
+#main-navigation,
+#main-navigation-region {
+}
+
+
+
+/* main level */
+
+ul#main-menu li a,
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background-color: transparent !important;
+  border-left: 1px solid #EAEAEA;
+}
+
+
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default a.active,
+#main-navigation ul#main-menu li a:hover,
+ul#main-menu li a:hover  {
+  background-color: #333 !important;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+
+
+/* second level */
+
+.sf-menu.sf-style-default li ul {
+  background-color:#666;
+}
+
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  background-color: #666;
+}
+
+/*.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+  background-color: #666;
+}
+
+*/
+
+

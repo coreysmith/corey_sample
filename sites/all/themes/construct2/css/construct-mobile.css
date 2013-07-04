@@ -1,0 +1,24 @@
+/* =========================================== */
+/* =          Construct Mobile Styles        = */
+/* =========================================== */
+/* 1 ******************** iPad Portrait/Browser *************************/
+@media only screen and (min-width:768px) and (max-width:959px){
+  
+  .twelve.slideshow-2 .slideshow-text-area-wrapper, .twelve.columns .slideshow-2 .slideshow-text-area-wrapper {
+    height:237px;
+  }
+  
+}
+/* 2 ******************** Mobile Landscape/Browser ***************************/
+@media only screen and (min-width:480px) and (max-width:767px){
+
+#block-views-full-width-slideshow-block{display:none;}
+
+}
+/* 3 ********************* Anything smaller than 480 ***************************/
+@media only screen and (max-width:479px){
+  #block-views-full-width-slideshow-block{display:none;}
+
+
+
+}

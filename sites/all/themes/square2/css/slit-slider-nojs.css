@@ -1,0 +1,38 @@
+/***********************************************************************
+************************  Slit-noJS.CSS ********************************
+***********************************************************************/
+
+
+
+
+.sl-slider-wrapper {
+	overflow: visible !important;
+	margin: 0 auto;
+}
+
+/* Slide wrapper and slides */
+
+.sl-slider,
+.sl-slide,
+.sl-slides-wrapper,
+.sl-slide-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+} 
+
+
+
+.nav-arrows,
+.nav-dots {
+	display: none;
+}
+
+.sl-slider-wrapper .bg-img {
+	position:relative;
+	width:100%;
+	top:0;
+	left:0;
+	
+}

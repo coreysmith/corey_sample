@@ -1,0 +1,112 @@
+/***********************************************************************
+************************  Color.CSS ************************************
+***********************************************************************/
+#header-wrapper-outer {background-image:url('colorpack-images/header-bg.jpg');
+
+}
+
+
+body {background:#fff url('colorpack-images/body-bg.jpg') top left repeat-x;}
+
+/*************** typography ******************/
+h1,h2,h3,h4,h5,h6 {color:#004E69;}
+a,
+a:link,
+a:visited {
+  color: #0074a0;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #0074a0;
+}
+
+
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+
+
+
+/** link colors **/
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+ul#main-menu li a {
+  color: #fff;
+}
+
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+ul#main-menu a.active,
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover,
+ul#main-menu li a.active,
+ul.sf-menu li a.active {
+	color:#B2BB1C !important;
+}
+
+/** second level link colors **/
+.sf-menu.sf-style-default li li a,
+.sf-menu.sf-style-default li li a:visited   {
+  color: #fff;
+}
+
+.sf-menu.sf-style-default li li a:hover,
+.sf-menu.sf-style-default li li a.active {
+	color:#fff !important;
+}
+
+
+/** background colors **/
+
+
+#main-navigation,
+#main-navigation-region {
+  background: transparent;
+}
+
+
+/* main level */
+
+ul#main-menu li a,
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background-color: transparent !important;
+  border-left: 0px solid #ccc;
+}
+
+
+
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default a.active,
+#main-navigation ul#main-menu li a:hover,
+ul#main-menu li a:hover  {
+  background-color: transparent !important;
+}
+
+
+
+/* second level */
+
+.sf-menu.sf-style-default li ul {
+  background-color:#41403E;
+}
+
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  background-color: #3A3938;
+}
+
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+  background-color: #3A3938;
+}
+
+
+

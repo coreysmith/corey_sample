@@ -1,0 +1,34 @@
+/* =========================================== */
+/* = Akihabara Mobile Styles = */
+/* =========================================== */
+/* 1 ******************** iPad Portrait/Browser *************************/
+@media only screen and (min-width:768px) and (max-width:959px){/* ============================== */
+.sf-menu.sf-style-default a,
+ul#main-menu li a{padding:12px 8px;font-size:90%;}
+.twelve.columns .slideshow-text-area-wrapper {margin-top:-162px;}
+.slideshow-2 .slideshow-text-area-wrapper{margin-left:353px;height:313px;margin-top:-320px;}
+.slideshow-1 .slideshow-text-area-wrapper{height:313px;width:310px;}
+.slideshow-text-area-wrapper {margin-top:-176px;}
+.slideshow-wrapper{height:271px;}
+.eleven.slideshow-2 .slideshow-text-area-wrapper, .eleven.columns .slideshow-2 .slideshow-text-area-wrapper {margin-left:370px;}
+.twelve.slideshow-2 .slideshow-text-area-wrapper, .twelve.columns .slideshow-2 .slideshow-text-area-wrapper {margin-left:236px;}
+}
+/* 2 ******************** Mobile Landscape/Browser ***************************/
+@media only screen and (min-width:480px) and (max-width:767px){#main-navigation-region ul.sf-menu li,
+ul#main-menu li a{height:39px;width:197px;border:0;font-size:90%;}
+#header-container{background-image:none;}
+#content-container .content-container-inner,
+#preface-container-inner,#postscript-container-inner{background-image:none;-webkit-box-shadow:0px 0px 0px 0px transparent;box-shadow:0px 0px 0px 0px transparent;margin-bottom:0px;margin-top:0px;}
+.footer-wrapper .container #footer .block-inner,
+#attribution-line .container .inner .attribution-line-inside .inner-inner{padding:10px 0;}
+}
+/* 3 ********************* Anything smaller than 480 ***************************/
+@media only screen and (max-width:479px){#main-navigation-region ul.sf-menu li,
+ul#main-menu li a{border:0;}
+#header-container{background-image:none;}
+#content-container .content-container-inner,
+#preface-container-inner,#postscript-container-inner{background-image:none;-webkit-box-shadow:0px 0px 0px 0px transparent;box-shadow:0px 0px 0px 0px transparent;margin-bottom:0px;margin-top:0px;}
+.footer-wrapper .container #footer .block-inner,
+#attribution-line .container .inner .attribution-line-inside .inner-inner{padding:10px 0;}
+#site-info #logo{padding:10px 10px 0;}
+}

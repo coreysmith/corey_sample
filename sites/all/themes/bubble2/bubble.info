@@ -1,0 +1,74 @@
+name = Bubble Theme
+description = Bubble Theme is by <a href="http://www.tributemedia.com">Tribute Media</a>. This ties to the cellar base theme and requires it to work.
+version = 2.0a
+core = 7.x
+base theme  = testingresponsive
+
+; =============================================================
+; = Regions                                                   =
+; =============================================================
+regions[header] = Header
+regions[main_nav] = Main Navigation
+regions[mobile_only] = Mobile (visible on phones only)
+regions[preface] = Preface
+regions[sidebar_first] = Sidebar First
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content_top] = Content Top
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[sidebar_last] = Sidebar Last
+regions[postscript] = Postscript
+regions[footer] = Footer
+
+
+; ============
+; = Features =
+; ============
+
+features[] = logo
+features[] = name
+features[] = slogan
+; features[] = node_user_picture
+; features[] = comment_user_picture
+; features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+; =============================================================
+; = Stylesheets                                               =
+; =============================================================
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/skins.css
+
+
+; =============================================================
+; = Color Pack Stylesheets                                    =
+; = Simply Uncomment / Comment the Color Packs to Change them =
+; = Don't forget to clear your Drupal caches when changing    =
+; =============================================================
+stylesheets[all][] = css/colorpacks/red.css
+
+
+; =============================================================
+; = Local Stylesheets                                         =
+; =============================================================
+stylesheets[all][] = css/local.css
+
+; =============================================================
+; = Mobile - Remove for non-mobile sites                      =
+; =============================================================
+stylesheets[all][] = css/bubble-mobile.css
+
+
+
+
+; =========================
+; = Custom Theme Settings =
+; =========================
+
+settings[firstsidebar] = 4
+settings[secondsidebar] = 5
+settings[cellarbreadcrumbs] = 0

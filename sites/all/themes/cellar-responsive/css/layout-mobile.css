@@ -1,0 +1,33 @@
+/* layout mobile
+================================================== */
+/*  1  ******************** iPad Portrait/Browser   *************************/
+@media only screen and (min-width:768px) and (max-width:959px){}
+/*  2  ******************** Mobile Landscape/Browser ***************************/
+@media only screen and (min-width:480px) and (max-width:767px){img.float{max-width:100%;padding:0;height:auto;}
+img.right,img.left{float:none;}
+#secondary-navigation {
+  text-align:left;
+}
+.field-name-field-image .field-item img {
+  float:none;
+  max-width:100%;
+  margin:0;
+  padding:0;
+}
+
+}
+/*  3  ********************* Anything smaller than 480 ***************************/
+@media only screen and (max-width:479px){img.float{max-width:100%;padding:0;height:auto;}
+img.right,img.left{float:none;}
+.region-content .content .node .field-name-field-image .field-item{padding:0;float:none;}
+#secondary-navigation {
+  text-align:left;
+}
+.field-name-field-image .field-item img {
+  float:none;
+  max-width:100%;
+  margin:0;
+  padding:0;
+}
+
+}

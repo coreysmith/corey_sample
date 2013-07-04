@@ -1,0 +1,323 @@
+.page-product-catalog #fieldset-id {
+
+height:40px;
+}
+
+.page-product-catalog #fieldset-id legend {
+  -moz-box-shadow:inset 0px 1px 0px 0px #f0ebf0;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #f0ebf0;
+  box-shadow:inset 0px 1px 0px 0px #f0ebf0;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #a8a8a8) );
+  background:-moz-linear-gradient( center top, #f0f0f0 5%, #a8a8a8 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#a8a8a8');
+  background-color:#f0f0f0;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  display:inline-block;
+  padding:5px 24px;
+  text-decoration:none;
+  font-size:110%;
+  text-shadow:1px 1px 0px #ffffff;
+}
+.page-product-catalog #fieldset-id legend:hover,
+.page-product-catalog #fieldset-id legend:active {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a8a8a8), color-stop(1, #f0f0f0) );
+  background:-moz-linear-gradient( center top, #a8a8a8 5%, #f0f0f0 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a8a8a8', endColorstr='#f0f0f0');
+  background-color:#a8a8a8;
+}
+
+
+.dark-region .page-product-catalog #fieldset-id legend {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #969696), color-stop(1, #000000) );
+  background:-moz-linear-gradient( center top, #969696 5%, #000000 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#969696', endColorstr='#000000');
+  background-color:#969696;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  display:inline-block;
+  padding:5px 24px;
+  text-decoration:none;
+  font-size:110%;
+  text-shadow:1px 1px 0px #ffffff;
+}
+.dark-region .page-product-catalog #fieldset-id legend:hover,
+.dark-region .page-product-catalog #fieldset-id legend:active {
+ background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #969696) );
+  background:-moz-linear-gradient( center top, #000000 5%, #969696 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#969696');
+  background-color:#000000;
+}
+.page-product-catalog #views-exposed-form-product-landing-page-page {
+   background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #666666;
+    margin-top: 2px;
+  margin-bottom:0;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  padding:10px;
+  -webkit-box-shadow: 0px 0px 4px 0px #000;
+          box-shadow: 0px 0px 4px 0px #000;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  position:relative;
+  z-index:200;
+}
+ 
+ .dark-region .page-product-catalog #views-exposed-form-product-landing-page-page {
+  background: none repeat scroll 0 0 #111;
+ }
+
+
+
+.node-type-catalog-product .region-content img,
+.page-product-catalog .region-content img {
+  
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px 0px transparent;
+  margin:0;
+}
+
+/**** main view landing page ***/
+.view-product-landing-page fieldset {
+  margin-bottom: 0;
+  padding:0;
+  margin-left:2px;
+}
+
+.view-product-landing-page .view-filters {
+  margin-left:5px;
+}
+.catalog-product {
+  margin: 3px;
+  float:left;
+
+}
+
+.catalog-product .inner {
+  border: 1px solid #ccc;
+  padding: 5px;
+  height: 245px;
+  width: 210px;
+  background:#fff;
+}
+
+.catalog-product-image {
+  text-align:center;
+}
+
+.page-product-catalog a.publishcontent-link {
+  font-size: 60%;
+  color:red;
+}
+
+/**** product pages ****/
+
+.return-to-product-catalog {
+  margin-bottom:15px;
+}
+
+h1.product-catalog-title {
+  margin-bottom: 10px;
+}
+.catalog-page-left .primary-image {
+  border:1px solid #ccc;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  padding: 15px;
+  text-align:center;
+  background:#fff;
+}
+
+.secondary-images {
+  float:left;
+  width:120px;
+  border:1px solid #ccc;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  padding: 15px;
+  text-align:center;
+  margin-top:2px;
+  margin-bottom:2px;
+  background:#fff;
+}
+.dark-region .secondary-images,
+.dark-region .catalog-page-left .primary-image,
+.dark-region .catalog-product .inner {
+  border-color:#666;
+}
+
+.secondary-images-second {
+  margin-left:2px;
+  margin-right:2px;
+}
+.catalog-links {
+  float:left;
+  text-align:center;
+  margin-left: 5px;
+  margin-top:10px;
+}
+.catalog-links a{
+  width: 180px;
+  margin-bottom:2px;
+}
+
+.catalog-info-line-wrapper .inner {
+  border:1px solid #ccc;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  padding: 10px 10px 0;
+  text-align:center;
+  width:40%;
+  margin: 10px 0 0 10px;
+  float:left;
+    margin-bottom: 20px;
+}
+
+ul.catalog-info-line {
+  list-style:none;
+  margin-bottom:0;
+}
+ul.catalog-info-line li {
+  margin-bottom: 14px;
+  line-height: 17px;
+}
+
+
+.catalog-srp {
+  float: right;
+  border:1px solid #ccc;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  padding: 10px;
+  text-align:center;
+  margin-left:10px;
+  margin-bottom:5px;
+}
+
+.catalog-srp-price {
+  font-size:150%;
+}
+.catalog-page-right h4 {
+  margin-top: 15px;
+}
+.catalog-page-right ul {
+  margin-left: 40px;
+  margin-top:10px;
+}
+.catalog-page-right ul li {
+  line-height:20px;
+  margin-bottom:12px;
+}
+
+/** catalog button **/
+a.catalog-button {-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;box-shadow:inset 0px 1px 0px 0px #f29c93;background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');background-color:#fe1a00;border:1px solid #d83526;display:inline-block;color:#ffffff !important;font-family:arial;font-size:15px;font-weight:bold;padding:6px 24px;text-decoration:none;text-shadow:1px 1px 0px #b23e35; }
+a.catalog-button:hover, .catalog-button a:hover {background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');background-color:#ce0100; }
+.catalog-button a {-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;box-shadow:inset 0px 1px 0px 0px #f29c93;background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');background-color:#fe1a00;border:1px solid #d83526;display:inline-block;color:#ffffff !important;font-family:arial;font-size:15px;font-weight:bold;padding:6px 24px;text-decoration:none;text-shadow:1px 1px 0px #b23e35; }
+
+/*** theme specific adjustments ***/
+
+/* akihabara */
+
+.node-type-catalog-product .akihabara2 .catalog-page-left,
+.node-type-catalog-product .akihabara2 .catalog-page-right {
+  width:450px;
+}
+
+.node-type-catalog-product .akihabara2 .catalog-page-left .secondary-images {
+  width: 116px;
+}
+
+.node-type-catalog-product .akihabara2 .catalog-page-left .secondary-images-second {
+  width: 117px;
+  height:123px  ;
+}
+
+
+/* 1 ******************** iPad Portrait/Browser *************************/
+@media only screen and (min-width:768px) and (max-width:959px){
+  .secondary-images {width:88px;}
+  .catalog-links a {width:135px;font-size:83%;}
+  .catalog-info-line-wrapper .inner {width:135px;} 
+  .catalog-info-line-wrapper ul li {line-height:17px;margin-bottom:10px;font-size:90%} 
+  
+  
+  /*** theme specific adjustments ***/
+
+  /* akihabara */
+
+  .node-type-catalog-product .akihabara2 .catalog-page-left,
+  .node-type-catalog-product .akihabara2 .catalog-page-right {
+    width:354px;
+  }
+
+  .node-type-catalog-product .akihabara2 .catalog-page-left .secondary-images {
+    width: 84px;
+  }
+
+  .node-type-catalog-product .akihabara2 .catalog-page-left .secondary-images-second {
+    width: 85px;
+    height:92px;
+  }
+  .node-type-catalog-product .akihabara2 .catalog-page-left .catalog-links a {width:132px;font-size:80%;}
+  .node-type-catalog-product .akihabara2 .catalog-page-left .catalog-info-line-wrapper .inner {width:132px;}
+  
+  
+}
+/* 2 ******************** Mobile Landscape/Browser ***************************/
+@media only screen and (min-width:480px) and (max-width:767px){
+  .secondary-images {width:119px;padding:5px}
+  .catalog-page-left .primary-image {width:365px;}
+  .catalog-links a {width:345px;}
+  .catalog-info-line-wrapper .inner {width:365px;margin-bottom:10px;}
+  .catalog-page-right {width:397px !important;}
+  .catalog-product {margin:3px;}
+  .catalog-product .inner {width: 180px;}
+  
+  /*** theme specific adjustments ***/
+
+  /* akihabara */
+  .node-type-catalog-product .akihabara2 .catalog-page-left,
+  .node-type-catalog-product .akihabara2 .catalog-page-right {
+    width:400px;
+  }
+  .node-type-catalog-product .akihabara2 .catalog-page-left .secondary-images {
+    width: 119px;
+    height:auto;
+  }
+
+
+}
+/* 3 ********************* Anything smaller than 480 ***************************/
+@media only screen and (max-width:479px){
+
+  .secondary-images {width:80px;padding:5px;}
+  .catalog-page-left .primary-image {width:248px;}
+  .catalog-links a {width:228px;}
+  .catalog-info-line-wrapper .inner {width:243px;margin-bottom:10px;}
+  .catalog-page-right {width:275px !important;}
+  .catalog-product {margin:3px;}
+  .catalog-product .inner {width: 122px;font-size:85%;height:190px;line-height:18px;}
+  .catalog-product a {font-size: 85%;}
+
+  /*** theme specific adjustments ***/
+
+  /* akihabara */
+  .node-type-catalog-product .akihabara2 .catalog-page-left,
+  .node-type-catalog-product .akihabara2 .catalog-page-right {
+    width:280px;
+  }
+  .node-type-catalog-product .akihabara2 .catalog-page-left .secondary-images {
+    width: 80px;
+    height:auto;
+  }
+
+}

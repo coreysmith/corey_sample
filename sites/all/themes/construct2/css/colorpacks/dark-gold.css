@@ -1,0 +1,184 @@
+/***********************************************************************
+************************  Gold.CSS  ************************************
+***********************************************************************/
+
+/* note: this file only has elements that are not black/white
+   elements that are black/white are contained in the style.css */
+
+
+
+   /* ************** general ********************/
+
+body {
+ background: #000 url('colorpack-images/dark-bg.png');
+}
+#page-wrapper {
+  background: transparent url('colorpack-images/dark-gradient.png') top center repeat-x;
+}
+
+.fullwidth-slideshow-text-area-inner {
+  background:#111;
+}
+   
+#content-wrapper {
+    border-bottom: 1px solid #222222;
+}
+#sidebar-first .block,
+#sidebar-last .block{
+  background:transparent url('colorpack-images/1px-lighten.png');
+  }
+
+/*** links ***/
+a,
+a:link,
+a:visited {
+  color: #EAC23F;
+}
+
+a:focus,
+a:hover,
+a:active,
+a.active,
+li a.active {
+  color: #EAC23F;
+}
+
+
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+
+
+
+/** link colors **/
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+ul#main-menu li a {
+  color: #fff;
+}
+
+.sf-menu.sf-style-default li li a,
+.sf-menu.sf-style-default li li a:visited,
+.sf-menu.sf-style-default li.sfHover li a {
+  color: #fff;
+}
+
+ul#main-menu a:hover,
+ul#main-menu a.active,
+ul.sf-menu a:hover,
+ul.sf-menu a.active,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover
+ {
+	color:#fff !important;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover {
+  color: #fff !important;
+  text-shadow:none;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  color:#fff !important;
+  text-shadow:none;
+}
+/** background colors **/
+
+
+#main-navigation,
+#main-navigation-region {
+  background: transparent;
+}
+
+
+/* main level */
+
+
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background-color: transparent !important;
+  border-left: 1px solid transparent;
+}
+ul#main-menu li a {
+      background:transparent;
+}
+.sf-menu.sf-style-default a,
+#main-navigation ul#main-menu li a,
+ul#main-menu li a {
+    background:transparent;
+}
+
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default.sf-navbar li.sfHover a.active,
+#main-navigation ul#main-menu li a:hover,
+ul#main-menu li a:hover,
+ul#main-menu li.active a  {
+  background:#222;
+}
+.sf-menu.sf-style-default li li a:focus,
+.sf-menu.sf-style-default li li a:hover,
+.sf-menu.sf-style-default li li a:active,
+.sf-menu.sf-style-default li li a.active,
+.sf-menu.sf-style-default.sf-navbar li li.sfHover a.active {
+  background-image:none;
+}
+
+.sf-menu.sf-style-default li.active-trail {
+  background-color: transparent !important;
+}
+
+
+
+
+/* second level */
+
+.sf-menu.sf-style-default li li a,
+#main-navigation ul#main-menu li li a,
+ul#main-menu li li a {
+    background-image:none;
+    background-color:transparent;
+}
+
+.sf-menu.sf-style-default li li:hover, 
+.sf-menu.sf-style-default li li a:hover {
+  color:#fff !important;
+  text-shadow:none;
+}
+
+.sf-menu.sf-style-default li li a:focus,
+.sf-menu.sf-style-default li li a:hover,
+.sf-menu.sf-style-default li li a:active,
+.sf-menu.sf-style-default li li a.active,
+.sf-menu.sf-style-default.sf-navbar li li.sfHover a.active {
+  background:#222;
+}
+
+.sf-menu.sf-style-default li ul {
+  background-color:#111;
+
+}
+
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  background:#222;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover {
+  background:#222;
+}
+
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+  background-color: transparent;
+}

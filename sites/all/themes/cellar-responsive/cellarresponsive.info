@@ -1,0 +1,61 @@
+name = Cellar Responsive Theme
+description = <a href="http://www.tributemedia.com">Tribute Media's</a> base theme. This base theme is required for all Tribute Media 2.0 themes.
+version = 1.0
+core = 7.x
+base theme  = cellar
+
+; ===========
+; = Regions =
+; ===========
+regions[header] = Header
+regions[main_nav] = Main Navigation
+regions[mobile_only] = Mobile (visible on phones only)
+regions[preface] = Preface
+regions[sidebar_first] = Sidebar First
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content_top] = Content Top
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[sidebar_last] = Sidebar Last
+regions[postscript] = Postscript
+regions[footer] = Footer
+
+; ===============
+; = Stylesheets =
+; ===============
+stylesheets[all][] = css/skeleton.css
+stylesheets[all][] = css/features-mobile.css
+stylesheets[all][] = css/skinr-mobile.css
+stylesheets[all][] = css/commerce-mobile.css
+stylesheets[all][] = css/suckerfish-mobile.css
+stylesheets[all][] = css/layout-mobile.css
+
+
+; ============
+; = Features =
+; ============
+
+features[] = logo
+features[] = name
+features[] = slogan
+; features[] = node_user_picture
+; features[] = comment_user_picture
+; features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; ============
+; = Features =
+; ============
+
+
+
+; =========================
+; = Custom Theme Settings =
+; =========================
+
+settings[firstsidebar] = 3
+settings[secondsidebar] = 5
+settings[cellarbreadcrumbs] = 0

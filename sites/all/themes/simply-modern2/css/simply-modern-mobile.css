@@ -1,0 +1,39 @@
+/* =========================================== */
+/* =          Akihabara Mobile Styles        = */
+/* =========================================== */
+/* 1 ******************** iPad Portrait/Browser *************************/
+@media only screen and (min-width:768px) and (max-width:959px){/* ============================== */
+
+
+}
+/* 2 ******************** Mobile Landscape/Browser ***************************/
+@media only screen and (min-width:480px) and (max-width:767px){
+
+  ul#main-menu li a:hover,
+  ul.sf-menu li a:hover,
+  ul#main-menu li a.active,
+  ul.sf-menu li a.active,
+  sf-menu.sf-style-default a.active,
+  .sf-menu.sf-style-default li:hover, 
+  .sf-menu.sf-style-default li.sfHover, 
+  .sf-menu.sf-style-default a:focus, 
+  .sf-menu.sf-style-default a:hover, 
+  .sf-menu.sf-style-default a:active {
+    background-image: none;
+}
+}
+/* 3 ********************* Anything smaller than 480 ***************************/
+@media only screen and (max-width:479px){
+  ul#main-menu li a:hover,
+  ul.sf-menu li a:hover,
+  ul#main-menu li a.active,
+  ul.sf-menu li a.active,
+  sf-menu.sf-style-default a.active,
+  .sf-menu.sf-style-default li:hover, 
+  .sf-menu.sf-style-default li.sfHover, 
+  .sf-menu.sf-style-default a:focus, 
+  .sf-menu.sf-style-default a:hover, 
+  .sf-menu.sf-style-default a:active {
+    background-image: none;
+}
+}

@@ -1,0 +1,147 @@
+/***********************************************************************
+************************  Color.CSS ************************************
+***********************************************************************/
+
+/********** general *************/
+.breadcrumb-wrapper {background:#000;}
+#secondary-wrapper {background:#39B4DD;}
+#secondary-wrapper a {color:#fff;}
+body {background:#3188B5;} 
+
+/*************** typography ******************/
+
+a,
+a:link,
+a:visited {
+  color: #3188B5;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #3188B5;
+}
+
+.dark-region a,
+.dark-region a:link,
+.dark-region a:visited {
+  color: #bbb;
+}
+
+.dark-region a:hover,
+.dark-region a:focus,
+.dark-region a:active,
+.dark-region a.active {
+  color: #bbb;
+}
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+
+
+
+/** link colors **/
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+ul#main-menu li a {
+  color: #fff;
+}
+
+.sf-menu.sf-style-default li li a,
+.sf-menu.sf-style-default li li a:visited,
+.sf-menu.sf-style-default li.sfHover li a {
+  color: #fff;
+}
+
+ul#main-menu a:hover,
+ul#main-menu a.active,
+ul.sf-menu a:hover,
+ul.sf-menu a.active,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover
+ {
+	color:#fff !important;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  color:#fff !important;
+}
+/** background colors **/
+
+
+#main-navigation,
+#main-navigation-region {
+  background: transparent;
+}
+
+
+/* main level */
+
+ul#main-menu li a,
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background-color: transparent !important;
+  border-left: 3px solid transparent;
+  
+}
+
+
+.sf-menu.sf-style-default a,
+ul#main-menu li a {
+  background:#999 !important;
+}
+ul#main-menu li {
+  border-left:3px solid transparent;
+}
+
+
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default.sf-navbar li.sfHover a.active,
+#main-navigation ul#main-menu li a:hover,
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover,
+ul#main-menu li a:hover,
+ul#main-menu li.active a  {
+  background-color:#3188B5 !important;
+}
+.sf-menu.sf-style-default li li a:focus,
+.sf-menu.sf-style-default li li a:hover,
+.sf-menu.sf-style-default li li a:active,
+.sf-menu.sf-style-default li li a.active,
+.sf-menu.sf-style-default.sf-navbar li li.sfHover a.active {
+  background-image:none;
+}
+
+.sf-menu.sf-style-default li.active-trail {
+  background-color: transparent !important;
+}
+
+
+
+
+/* second level */
+
+.sf-menu.sf-style-default li ul {
+  background-color:#fff;
+
+}
+
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  background-color:#e2e2e2;
+}
+
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+  background-color: transparent;
+}

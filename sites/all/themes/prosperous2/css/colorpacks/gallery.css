@@ -1,0 +1,182 @@
+/***********************************************************************
+************************  bloo.CSS ************************************
+***********************************************************************/
+
+/* ==================================================================== */
+/* =  Don't forget to make sure you are using the right page.tpl file = */
+/* ==================================================================== */
+
+
+/* ************** general ********************/
+
+body {
+  background:#222 url('colorpack-images/gallery-body-bg.png');
+}
+.top-wrapper {
+  background: #e2e2e2;
+}
+.breadcrumb-wrapper {
+  background:transparent;
+}
+
+#navigation-wrapper {
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(236,236,236,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(236,236,236,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+}
+#footer-wrapper-outer {
+  background: rgb(68,68,68); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(17,17,17,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(68,68,68,1)), color-stop(100%,rgba(17,17,17,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%,rgba(17,17,17,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(68,68,68,1) 0%,rgba(17,17,17,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%,rgba(17,17,17,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(68,68,68,1) 0%,rgba(17,17,17,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#111111',GradientType=0 ); /* IE6-9 */
+}
+
+.region-sidebar-first .block,
+.region-sidebar-last .block {
+  background: #E2E2E2;
+}
+
+
+
+/*************** typography ******************/
+
+a,
+a:link,
+a:visited {
+  color: #c0353a;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #d7030f;
+}
+#site-name a span {
+  color: #d7030f;
+}
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+
+
+
+/** link colors **/
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+ul#main-menu li a {
+  color: #d7030f;
+}
+
+.sf-menu.sf-style-default li li a,
+.sf-menu.sf-style-default li li a:visited,
+.sf-menu.sf-style-default li.sfHover li a {
+  color: #d7030f;
+}
+
+ul#main-menu a:hover,
+ul#main-menu a.active,
+ul.sf-menu a:hover,
+ul.sf-menu a.active,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover
+ {
+	color:#fff !important;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  color:#d7030f !important;
+}
+/** background colors **/
+
+
+#main-navigation,
+#main-navigation-region {
+  background: transparent;
+}
+
+
+/* main level */
+
+ul#main-menu li a,
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background-color: transparent !important;
+  border-left: 1px solid #fff;
+}
+
+
+
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default.sf-navbar li.sfHover a.active,
+#main-navigation ul#main-menu li a:hover,
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover,
+ul#main-menu li a:hover,
+ul#main-menu li.active a  {
+  background:#1c1c1c url('colorpack-images/gallery-nav-bg.png') top left repeat-x;
+}
+.sf-menu.sf-style-default li li a:focus,
+.sf-menu.sf-style-default li li a:hover,
+.sf-menu.sf-style-default li li a:active,
+.sf-menu.sf-style-default li li a.active,
+.sf-menu.sf-style-default.sf-navbar li li.sfHover a.active {
+  background-image:none;
+}
+
+.sf-menu.sf-style-default li.active-trail {
+  background-color: transparent !important;
+}
+
+
+
+
+/* second level */
+
+.sf-menu.sf-style-default li ul {
+  background-color:#fff;
+
+}
+
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  background-color:#e2e2e2;
+}
+
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+  background-color: transparent;
+}
+
+
+
+/*** overrides for this colorpack ***/
+
+#mobile-only-container,
+#preface-wrapper,
+#postscript-wrapper,
+#content-column {
+background:transparent;
+}
+
+
+
+

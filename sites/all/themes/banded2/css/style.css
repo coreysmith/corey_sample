@@ -1,0 +1,293 @@
+/* if you'd like to use the line border, this this uses this class instead of an HR so the HR can be themed differently.
+================================================== */
+.lined-border {
+	height: 0px;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #fff;
+}
+
+/* ************** general ********************/
+#page {
+}
+
+.breadcrumb-wrapper {
+  margin-bottom:0;
+}
+
+/*************** typography ******************/
+body,
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+  line-height: 1.56em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #444;
+/*  text-shadow: 1px 1px #FFFFFF;*/
+	clear:both;
+}
+
+/*************** header region ******************/
+
+#site-name a {
+  color: #333;
+}
+
+/*************** navigation ******************/
+
+#secondary-navigation {
+  margin-bottom: 0;
+}
+#secondary-wrapper {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-bottom: 1px solid #BBBBBB;
+  margin-bottom: 15px;
+  padding:5px 0;
+}
+
+/*************** preface region ******************/
+
+#preface-wrapper {
+  margin-bottom:20px;
+}
+
+#preface-container {
+
+}
+#preface-container-inner {
+	background: #FFFFFF;
+
+}
+#preface .inner {
+	background-color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	margin-top: 10px;
+}
+#preface {
+	margin-bottom: 0px;
+}
+
+/*************** content region ******************/
+
+
+#content-container {
+	border-bottom: 1px solid #bbb;
+}
+.preface-yes {
+}
+#content-container .content-container-inner {
+	background-color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	-moz-box-shadow: 0px 0px 5px #aaa;
+	-webkit-box-shadow: 0px 0px 5px #aaa;
+	box-shadow: 0px 0px 5px #aaa;
+	margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#main-content-wrapper {
+
+}
+
+#navigation-container {margin-bottom:15px;}
+
+/*************** content top and bottom region ******************/
+
+#content-top {
+
+}
+.region-content-bottom .block-inner {
+  padding: 10px;
+}
+/*************** sidebars ******************/
+
+.region-sidebar-first .block-block,
+.region-sidebar-last .block-block {
+  margin-bottom: 10px;
+}
+/*************** postscript region ******************/
+
+#postscript,
+.region-postscript {
+  margin-bottom: 0;
+}
+#postscript-container {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #bbb;
+	padding-bottom: 15px;
+}
+#postscript-container-inner {
+	background: #FFFFFF;
+	-moz-border-radius: 5px; /* FF1-3.6 */
+	-webkit-border-radius: 5px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+	border-radius: 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	-moz-box-shadow: 0px 0px 5px #aaa; /* FF3.5 - 3.6 */
+	-webkit-box-shadow: 0px 0px 5px #aaa; /* Saf3.0+, Chrome */
+	box-shadow: 0px 0px 5px #aaa; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+	margin-top: 15px;
+}
+#postscript .inner {
+	background-color: #FFFFFF;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+
+}
+.region-postscript .block-inner {
+  padding: 10px;
+}
+
+.widget_pager {margin-top:-9px;}
+
+/*************** footer region ******************/
+
+#footer-container {
+	border-top: 1px solid #fff;
+	padding-top: 15px;
+}
+.region-footer {
+  margin-bottom: 10px;
+}
+
+/* ========================= */
+/* =     Suckerfish Menu   = */
+/* ========================= */
+
+#main-navigation,
+#main-navigation-region {
+  height: 46px;
+  background: transparent;
+}
+
+#main-navigation .inner {
+  height: 46px;
+  padding-top: 10px;
+  margin-left:0;
+}
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background: transparent;
+  border-left: 1px solid #fff;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  margin: 5px 0;
+}
+ul#main-menu li a {
+  background: #fff;
+}
+ul#main-menu li a:hover {
+  background: #fff;
+}
+
+ul#main-menu li a,
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited  {
+    background-image: url('images/not-active_arrow.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  	padding-bottom:15px;
+}
+
+
+ul#main-menu li a.active,
+ul.sf-menu li a.active,
+sf-menu.sf-style-default a.active {
+	background-image: url('images/active_arrow.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+	padding-bottom:15px;
+}
+
+
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover {
+  background-image: url('images/active_arrow.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+	color:#2EABF2 !important;
+	text-decoration: none;
+}
+
+.sf-menu.sf-style-default li:hover, 
+.sf-menu.sf-style-default li.sfHover, 
+.sf-menu.sf-style-default a:focus, 
+.sf-menu.sf-style-default a:hover, 
+.sf-menu.sf-style-default a:active {
+  background-image: url('images/active_arrow.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.sf-menu.sf-style-default ul li:hover, 
+.sf-menu.sf-style-default ul li.sfHover, 
+.sf-menu.sf-style-default ul li a:focus, 
+.sf-menu.sf-style-default ul li a:hover, 
+.sf-menu.sf-style-default ul li a:active,
+.sf-menu.sf-style-default ul li li:hover, 
+.sf-menu.sf-style-default ul li li.sfHover, 
+.sf-menu.sf-style-default ul li li a:focus, 
+.sf-menu.sf-style-default ul li li a:hover, 
+.sf-menu.sf-style-default ul li li a:active,
+ul#main-menu li li a.active,
+ul.sf-menu li li a.active {
+  background-image: url('images/not-active_arrow.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+#main-navigation ul#main-menu li a {
+  padding:12px 9px;
+  background: none;
+}
+
+.sf-menu.sf-style-default li ul {
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  -webkit-box-shadow: 0px 2px 7px 0px #000;
+          box-shadow: 0px 2px 7px 0px #000;
+  padding-bottom:0;
+  background-color:red;
+  
+}
+
+.sf-menu.sf-style-default li li.first a {
+  -webkit-border-radius: 10px 3px 0 0;
+          border-radius: 10px 3px 0 0;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+.sf-menu.sf-style-default li li.last a {
+  -webkit-border-radius: 0 0 3px 3px;
+          border-radius: 0 0 3px 3px;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+
+
+
+

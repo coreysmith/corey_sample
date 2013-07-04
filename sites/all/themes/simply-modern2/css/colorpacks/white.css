@@ -1,0 +1,160 @@
+/***********************************************************************
+************************  Color.CSS ************************************
+***********************************************************************/
+
+/****** general *************/
+body {background:url("colorpack-images/white-pixel-bg.jpg")}
+#content-area-wrapper .container {background:#fff;
+}
+#header-wrapper-outer {
+	background:#fbfbfb;
+}
+#header-wrapper {
+	background:none #ffffff;
+	filter:none !important;
+}
+#header-region h2 {
+	color:#000000;
+}
+.header-region-inner {background:none #ffffff;}
+#navigation-container {background:url("colorpack-images/white-main-navigation-bg.jpg") repeat-x bottom left #ffffff; margin-left:0px; margin-right:0px;}
+#footer-wrapper-outer {
+	background:transparent;
+	filter:none !important;
+	color:#444444;
+}
+#preface-container {
+	background:url("colorpack-images/white-preface-bg.jpg") repeat-x 0 0 #ffffff !important;
+}
+#footer .content {color:#ffffff !important;}
+#footer a {color:#FC2A1B;}
+#footer-container {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #383838), color-stop(1, #585858) );
+	background:-moz-linear-gradient( center top, #383838 5%, #585858 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#383838', endColorstr='#585858');
+	background-color:#383838;
+	-webkit-box-shadow: 0 0 2px #666666;
+	-moz-box-shadow: 0 0 2px #666666;
+	box-shadow: 0 0 2px #666666;
+}
+#content-area-wrapper .container,
+.header-region-wrapper .container {  
+  -webkit-box-shadow: 0px 0px 2px #cccccc;
+	-moz-box-shadow: 0px 0px 2px #cccccc;
+          box-shadow: 0px 0px 2px #cccccc;
+}
+/*************** typography ******************/
+
+a,
+a:link,
+a:visited {
+  color: #A32328;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #A32328;
+}
+
+
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+
+
+
+/** link colors **/
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+ul#main-menu li a {
+  color: #fff;
+}
+
+.sf-menu.sf-style-default li li a,
+.sf-menu.sf-style-default li li a:visited,
+.sf-menu.sf-style-default li.sfHover li a {
+  color: #fff;
+}
+
+ul#main-menu a:hover,
+ul#main-menu a.active,
+ul.sf-menu a:hover,
+ul.sf-menu a.active,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover
+ {
+	color:#fff !important;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  color:#fff !important;
+}
+/** background colors **/
+
+/* main level */
+
+ul#main-menu li a,
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background-color: transparent !important;
+  border-left: 1px solid transparent;
+}
+
+
+
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default.sf-navbar li.sfHover a.active,
+#main-navigation ul#main-menu li a:hover,
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover,
+ul#main-menu li a:hover,
+ul#main-menu li.active a  {
+  
+  background-color: #444 !important;
+  background-color: rgba(0, 0, 0, 0.2) !important; 
+
+}
+.sf-menu.sf-style-default li li a:focus,
+.sf-menu.sf-style-default li li a:hover,
+.sf-menu.sf-style-default li li a:active,
+.sf-menu.sf-style-default li li a.active,
+.sf-menu.sf-style-default.sf-navbar li li.sfHover a.active {
+  background-image:none;
+  background-color: #444 !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.sf-menu.sf-style-default li.active-trail {
+  background-color: transparent !important;
+}
+
+
+
+
+/* second level */
+
+.sf-menu.sf-style-default li ul {
+  background-color:#333;
+
+}
+
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  background-color:#222;
+}
+
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+  background-color: transparent;
+}

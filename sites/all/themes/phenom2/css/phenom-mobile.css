@@ -1,0 +1,53 @@
+/* =========================================== */
+/* =            Phenom Mobile Styles         = */
+/* =========================================== */
+/* 1 ******************** iPad Portrait/Browser *************************/
+@media only screen and (min-width:768px) and (max-width:959px){
+  
+
+#main-navigation, 
+#main-navigation-region{
+  font-size:80%;
+}
+.sf-menu.sf-style-default a,
+#main-navigation ul#main-menu li a {
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:17px;
+}
+
+#main-navigation ul#main-menu li a {
+  padding-top:15px;
+}
+
+.sf-menu.sf-style-default li li a {
+  padding-left:10px;
+  padding-right: 10px;
+}
+.twelve.slideshow-1 .slideshow-text-area-wrapper, .twelve.columns .slideshow-1 .slideshow-text-area-wrapper {height:236px;}
+.twelve.slideshow-2 .slideshow-text-area-wrapper, .twelve.columns .slideshow-2 .slideshow-text-area-wrapper {height:236px;}
+
+
+}
+/* 2 ******************** Mobile Landscape/Browser ***************************/
+@media only screen and (min-width:480px) and (max-width:767px){
+  .phenom-left .block-inner,
+  .phenom-right .block-inner  {
+    background-image: none;
+  }
+  img.left{margin-right:0;}
+  img.right{margin-left:0;}
+  
+
+}
+/* 3 ********************* Anything smaller than 480 ***************************/
+@media only screen and (max-width:479px){
+
+  .phenom-left .block-inner,
+  .phenom-right .block-inner  {
+    background-image: none;
+  }
+  img.left{margin-right:0;}
+  img.right{margin-left:0;}
+  
+}

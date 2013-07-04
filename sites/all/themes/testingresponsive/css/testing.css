@@ -1,0 +1,54 @@
+/* =============================================== */
+/* =             Theme testing CSS               = */
+/* =        Remove for production Theme          = */
+/* =============================================== */
+
+.node-type-test-main-menu-superfish #main-navigation,
+.node-type-webform #main-navigation,
+.node-type-article #main-navigation  {
+  display: none;
+}
+#site-name,
+#site-slogan {
+  display: none;
+}
+.page-node-31 .logo,
+.page-node-31 #site-slogan  {
+  display: block;
+}
+
+.page-node-34 #site-name,
+.page-node-34 #site-slogan,
+.page-node-34 .logo,
+.maintenance-page #site-name,
+.maintenance-page #site-slogan,
+.maintenance-page .logo {
+  display: block;
+}
+
+.page-node-32 #site-name {
+  display: block;
+}
+
+.page-node-33 .logo {
+  display: none;
+}
+
+.page-node-33 #site-name,
+.page-node-33 #site-slogan {
+  display: block;
+}
+
+/*.block-inner {
+  background: gray;
+}*/
+
+div.block-inner p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+

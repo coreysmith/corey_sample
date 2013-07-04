@@ -1,0 +1,138 @@
+/* =========================================== */
+/* = Prosperous Mobile Styles = */
+/* =========================================== */
+/* 1 ******************** iPad Portrait/Browser *************************/
+@media only screen and (min-width:768px) and (max-width:959px) {
+  
+  .twelve.slideshow-2 .slideshow-text-area-wrapper, 
+  .twelve.columns .slideshow-2 .slideshow-text-area-wrapper {
+    margin-left: 256px;
+  }
+  .eleven.slideshow-2 .slideshow-text-area-wrapper, 
+  .eleven.columns .slideshow-2 .slideshow-text-area-wrapper {
+    margin-left: 258px;
+  }
+  .slideshow-2 .slideshow-text-area-wrapper {
+    margin-left: 373px;
+  }
+  #content-top .slideshow-1 .slideshow-text-area-wrapper {
+    height: 309px;
+  }
+  #content-top .twelve.slideshow-1 .slideshow-text-area-wrapper,
+  .twelve.columns #content-top .slideshow-1 .slideshow-text-area-wrapper {
+    height: 228px;
+  }
+  #content-top .slideshow-2 .slideshow-text-area-wrapper {
+    margin-left: 353px;
+    height: 309px;
+    margin-top: -318px;
+  }
+  #content-top .twelve .slideshow-2 .slideshow-image-wrapper {
+    height: 228px;
+  }
+  .twelve.slideshow-2 .slideshow-text-area-wrapper,
+  .twelve.columns .slideshow-2 .slideshow-text-area-wrapper {
+    margin-left: 300px;
+  }
+  #content-top .twelve.slideshow-2 .slideshow-text-area-wrapper,
+  .twelve.columns #content-top .slideshow-2 .slideshow-text-area-wrapper {
+    margin-left: 236px;
+    height: 228px;
+    margin-top: -237px;
+  }
+  #content-top .eleven .slideshow-2 .slideshow-image-wrapper {
+    height: 207px;
+  }
+  .eleven.slideshow-2 .slideshow-text-area-wrapper,
+  .eleven.columns .slideshow-2 .slideshow-text-area-wrapper {
+    margin-left: 390px;
+  }
+  #content-top .slideshow-1 .slideshow-title-inner,
+  #content-top .eleven.slideshow-1 .slideshow-title-inner,
+  .eleven.columns #content-top .slideshow-1 .slideshow-title-inner,
+  #content-top .twelve.slideshow-1 .slideshow-title-inner,
+  .twelve.columns #content-top .slideshow-1 .slideshow-title-inner {
+    padding-top:20px;
+  }
+  #content-top .eleven.slideshow-1 .slideshow-text-area-wrapper,
+  .eleven.columns #content-top .slideshow-1 .slideshow-text-area-wrapper {
+    height: 207px;
+  }
+  #content-top .eleven.slideshow-2 .slideshow-text-area-wrapper,
+  .eleven.columns #content-top .slideshow-2 .slideshow-text-area-wrapper {
+    margin-left: 238px;
+    height: 207px;
+    margin-top: -216px;
+  }
+  .slideshow-url-inner {
+    padding: 6px 10px;
+  }
+
+}
+/* 2 ******************** Mobile Landscape/Browser ***************************/
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+  ul#main-menu li a:hover,
+  ul.sf-menu li a:hover,
+  ul#main-menu li a.active,
+  ul.sf-menu li a.active,
+  sf-menu.sf-style-default a.active,
+  .sf-menu.sf-style-default li:hover,
+  .sf-menu.sf-style-default li.sfHover,
+  .sf-menu.sf-style-default a:focus,
+  .sf-menu.sf-style-default a:hover,
+  .sf-menu.sf-style-default a:active {
+    background-image: none;
+  }
+  .sf-menu.sf-style-default {
+    margin-top: 0;
+  }
+  ul#main-menu li a,
+  .sf-menu.sf-style-default li,
+  .sf-menu.sf-style-default.sf-navbar {
+    border-left: 0 solid #222;
+  }
+  #main-navigation .inner {
+    padding-top: 0;
+  }
+  #main-navigation-region ul.sf-menu li, #main-navigation ul#main-menu li {
+    background: transparent;
+  }
+  #main-navigation-region ul.sf-menu li:hover, #main-navigation ul#main-menu li:hover {
+    background: none repeat scroll 0 0 transparent;
+  }
+
+}
+/* 3 ********************* Anything smaller than 480 ***************************/
+@media only screen and (max-width:479px) {
+  ul#main-menu li a:hover,
+  ul.sf-menu li a:hover,
+  ul#main-menu li a.active,
+  ul.sf-menu li a.active,
+  sf-menu.sf-style-default a.active,
+  .sf-menu.sf-style-default li:hover,
+  .sf-menu.sf-style-default li.sfHover,
+  .sf-menu.sf-style-default a:focus,
+  .sf-menu.sf-style-default a:hover,
+  .sf-menu.sf-style-default a:active {
+    background-image: none;
+  }
+  .sf-menu.sf-style-default {
+    margin-top: 0;
+  }
+  ul#main-menu li a,
+  .sf-menu.sf-style-default li,
+  .sf-menu.sf-style-default.sf-navbar {
+    border-left: 0 solid #222;
+  }
+  #main-navigation .inner {
+    padding-top: 0;
+  }
+  #main-navigation-region ul.sf-menu li, #main-navigation ul#main-menu li {
+    background: transparent;
+  }
+  #main-navigation-region ul.sf-menu li:hover, #main-navigation ul#main-menu li:hover {
+    background: none repeat scroll 0 0 transparent;
+  }
+
+}

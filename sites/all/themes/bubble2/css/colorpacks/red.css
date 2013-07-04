@@ -1,0 +1,144 @@
+/***********************************************************************
+************************  Color.CSS ************************************
+***********************************************************************/
+
+
+.breadcrumb-wrapper {
+  background: #BE4141;
+}
+
+
+
+#header-wrapper-outer {
+  border-top: 3px solid #BE4141;
+}
+
+#site-info {background-color:#BE4141;}
+
+#site-name a {color:#fff;}
+#site-slogan {color:#fff;}
+
+/*************** typography ******************/
+
+.breadcrumb-wrapper a,
+.breadcrumb-wrapper a:link,
+.breadcrumb-wrapper a:visited {
+  color: #eee;
+}
+
+.breadcrumb-wrapper a:hover,
+.breadcrumb-wrapper a:focus,
+.breadcrumb-wrapper a:active,
+.breadcrumb-wrapper a.active {
+  color: #ccc;
+
+}
+
+a,
+a:link,
+a:visited {
+  color: #BE4141;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #BE4141;
+}
+
+
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+
+
+
+/** link colors **/
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+sf-menu.sf-style-default span.sf-description,
+ul#main-menu li a,
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited  {
+  color: #9E9E9E;
+}
+
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+ul#main-menu a.active,
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover,
+ul#main-menu li a.active,
+ul.sf-menu li a.active,
+sf-menu.sf-style-default a.active,
+ul#main-menu li a:hover,
+ul.sf-menu li a:hover {
+	color:#BE4141 !important;
+}
+
+/** background colors **/
+
+
+#main-navigation,
+#main-navigation-region,
+#footer {
+  background: rgb(206,206,206); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(206,206,206,1) 0%, rgba(241,241,241,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,206,206,1)), color-stop(100%,rgba(241,241,241,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(206,206,206,1) 0%,rgba(241,241,241,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(206,206,206,1) 0%,rgba(241,241,241,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(206,206,206,1) 0%,rgba(241,241,241,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(206,206,206,1) 0%,rgba(241,241,241,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecece', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
+}
+
+
+/* main level */
+
+ul#main-menu li a,
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background-color: transparent !important;
+  border-left: 0px solid #ccc;
+}
+
+
+
+.sf-menu.sf-style-default li:hover,
+.sf-menu.sf-style-default li.sfHover,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default a.active,
+#main-navigation ul#main-menu li a:hover,
+ul#main-menu li a:hover  {
+  background-color: transparent !important;
+}
+
+
+
+/* second level */
+.sf-menu.sf-style-default li ul {
+  background: #f1f1f1;
+}
+
+.sf-menu.sf-style-default li li:hover,
+.sf-menu.sf-style-default li li.sfHover {
+  background-color:transparent;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  background-color: #eee;
+}
+
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+  background-color: #fff;
+}
+
+
+
+

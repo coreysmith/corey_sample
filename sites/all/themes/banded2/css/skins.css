@@ -1,0 +1,24 @@
+/***********************************************************************
+************************  skins for banded  ****************************
+***********************************************************************/
+
+/*if you'd like to have the social links rounded slightly, uncomment this */
+/*.contact, .facebook, .google, .linked-in,.linkedin, .pinterest, .rss, .twitter, .birdy,.twitterbird, .yelp, .youtube,
+.youtube2, .custom1, .custom2, .custom3, .custom4, .custom5 {
+background-image: url("images/tm-social-icons-3px.png");
+}
+*/
+
+
+
+.gallery-post {
+-webkit-border-radius: 3px;
+border-radius: 3px;
+background-clip: padding-box;
+
+overflow: hidden;
+
+}
+
+/** slideshow overrides **/
+

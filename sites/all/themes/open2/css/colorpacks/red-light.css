@@ -1,0 +1,190 @@
+/***********************************************************************
+************************   red.CSS ************************************
+***********************************************************************/
+
+/** this color uses the light page.tpl **/
+
+body {background-color:#fff;}
+#footer-wrapper-outer {
+  border-top: 1px solid #AAAAAA;
+   margin-top: 10px;
+   padding-top: 15px;
+}
+#site-name a {color:#B80011;}
+/*************** typography ******************/
+
+a,
+a:link,
+a:visited {
+  color: #B80011;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #B80011;
+}
+
+
+/* ================================= */
+/* =   Dark Region  Overrides = */
+/* ================================= */
+
+/* #Forms
+================================================== */
+.dark-region input[type="text"],
+.dark-region input[type="password"],
+.dark-region input[type="email"],
+.dark-region textarea,
+.dark-region select{color:#222;}
+.dark-region input[type="text"]:focus,
+.dark-region input[type="password"]:focus,
+.dark-region input[type="email"]:focus,
+.dark-region textarea:focus{color:#222;}
+.dark-region input[type="text"],.dark-region input[type="password"],.dark-region input[type="email"],.dark-region textarea,.dark-region select{background:none repeat scroll 0 0 #ddd;}
+.dark-region .resizable-textarea .grippie{background-color:#ccc;border-color:#bbb;}
+
+.dark-region ul.tabs li a.active {
+    background: none repeat scroll 0 0 #888;
+    border-color: #999;
+    color: #FFFFFF;
+}
+
+.dark-region ul.tabs li a {
+    background: none repeat scroll 0 0 #777;
+    border-color: #999;
+}
+.dark-region ul.tabs {
+    border-color: #ccc;
+}
+
+.dark-region a.button,
+.dark-region button,
+.dark-region input[type="submit"],
+.dark-region input[type="reset"],
+.dark-region input[type="button"]{font-family:inherit;-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;box-shadow:inset 0px 1px 0px 0px #ffffff;background:-webkit-gradient( linear,left top,left bottom,color-stop(0.05,#ededed),color-stop(1,#dfdfdf) );background:-moz-linear-gradient( center top,#ededed 5%,#dfdfdf 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',endColorstr='#dfdfdf');background-color:#ededed;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;border:1px solid #dcdcdc;display:inline-block;color:#777777 !important;font-size:15px;font-weight:bold;padding:6px 24px;text-decoration:none;text-shadow:1px 1px 0px #ffffff;}
+.dark-region a.button:hover,
+.dark-region button:hover,
+.dark-region input[type="submit"]:hover,
+.dark-region input[type="reset"]:hover,
+.dark-region input[type="button"]:hover{background:-webkit-gradient( linear,left top,left bottom,color-stop(0.05,#dfdfdf),color-stop(1,#ededed) );background:-moz-linear-gradient( center top,#dfdfdf 5%,#ededed 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',endColorstr='#ededed');background-color:#dfdfdf;}
+.dark-region a.button:active,
+.dark-region button:active,
+.dark-region input[type="submit"]:active,
+.dark-region input[type="reset"]:active,
+.dark-region input[type="button"]:active{background:-webkit-gradient( linear,left top,left bottom,color-stop(0.05,#dfdfdf),color-stop(1,#ededed) );background:-moz-linear-gradient( center top,#dfdfdf 5%,#ededed 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',endColorstr='#ededed');background-color:#dfdfdf;}
+.dark-region .button.full-width,
+.dark-region button.full-width,
+.dark-region input[type="submit"].full-width,
+.dark-region input[type="reset"].full-width,
+.dark-region input[type="button"].full-width{background:-webkit-gradient( linear,left top,left bottom,color-stop(0.05,#dfdfdf),color-stop(1,#ededed) );background:-moz-linear-gradient( center top,#dfdfdf 5%,#ededed 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',endColorstr='#ededed');background-color:#dfdfdf;}
+
+.dark-region .compact-form-label {color:#555;}
+.dark-region .block-search input[type="submit"],
+.dark-region .block-search input[type="reset"],
+.dark-region .block-search input[type="button"]{background:transparent url('colorpack-images/search-go.png') -5px 0;border:0;height:32px;width:30px;font-size:0;cursor:pointer;-webkit-box-shadow:0px 0px 0px 0px #ffffff;box-shadow:0px 0px 0px 0px #ffffff;padding:0;-webkit-border-radius:0;border-radius:0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;}
+
+
+
+
+/* ======================== */
+/* =    menu overrides    = */
+/* ======================== */
+
+
+
+/** link colors **/
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited,
+ul#main-menu li a {
+  color: #222;
+}
+
+.sf-menu.sf-style-default li li a,
+.sf-menu.sf-style-default li li a:visited,
+.sf-menu.sf-style-default li.sfHover li a {
+  color: #222;
+}
+
+ul#main-menu a:hover,
+ul#main-menu a.active,
+ul.sf-menu a:hover,
+ul.sf-menu a.active,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover
+ {
+	color:#B80011 !important;
+}
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  color:#1C75BB !important;
+}
+/** background colors **/
+
+
+#main-navigation,
+#main-navigation-region {
+  background: transparent;
+}
+
+
+/* main level */
+
+ul#main-menu li a,
+.sf-menu.sf-style-default li,
+.sf-menu.sf-style-default.sf-navbar {
+  background-color: transparent !important;
+  border-left: 2px solid transparent;
+}
+
+
+
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default a.active,
+.sf-menu.sf-style-default.sf-navbar li.sfHover a.active,
+#main-navigation ul#main-menu li a:hover,
+.sf-menu.sf-style-default ul li.active-trail > a:hover,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a:hover,
+ul#main-menu li a:hover,
+ul#main-menu li.active a  {
+  background:transparent url('colorpack-images/1px-darken.png');
+}
+.sf-menu.sf-style-default li li a:focus,
+.sf-menu.sf-style-default li li a:hover,
+.sf-menu.sf-style-default li li a:active,
+.sf-menu.sf-style-default li li a.active,
+.sf-menu.sf-style-default.sf-navbar li li.sfHover a.active {
+  background-image:none;
+}
+
+.sf-menu.sf-style-default li.active-trail {
+  background-color: transparent !important;
+}
+
+
+
+
+/* second level */
+
+.sf-menu.sf-style-default li ul {
+  background:#fff url('colorpack-images/1px-darken.png');
+
+}
+
+
+.sf-menu.sf-style-default ul li.active-trail > a,
+.sf-menu.sf-style-default ul li.active-trail li.active-trail > a {
+  background-color:transparent;
+}
+
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+  background-color: transparent;
+}
